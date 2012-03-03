@@ -60,11 +60,9 @@ import org.apache.commons.logging.LogFactory;
  */
 public class Show {
     
-	protected static Log LOG = LogFactory.getLog(Show.class);
+    protected static Log LOG = LogFactory.getLog(Show.class);
     
     public static String DEFAULT_LEVEL = "console";
-    
-    public Show() {}
     
     public Show(String key, String value) {
         log(DEFAULT_LEVEL, key, value);
