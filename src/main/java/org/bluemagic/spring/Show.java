@@ -110,7 +110,7 @@ public class Show {
     	} else if ("trace".equals(level.toLowerCase())) {
     		LOG.trace(message);
     	} else {
-    		LOG.debug(message);
+    		System.out.println(message);
     	}
     }
 }
